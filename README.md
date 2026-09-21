@@ -15,7 +15,7 @@
 
 ## Now
 
-- **Solera Holdings, summer 2026.** Shipped two AI-driven pipelines that save 500+ engineering hours a month, built around a proof gate that demands a failing test before any fix is attempted.
+- **Solera Holdings, summer 2026.** Shipped two AI-driven pipelines that save 500+ engineering hours a month, built so AI-generated fixes must clear a failing-test proof and a human approval gate. The feedback pilot produced 127 AI-authored fix PRs.
 - **Grambling State University.** B.S. in Computer Science & Cybersecurity, graduating May 2028.
 - **Building.** Tripwire, automated exploit containment for DeFi protocols.
 
