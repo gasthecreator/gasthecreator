@@ -50,11 +50,11 @@ for d in (True,False):
     open(f"assets/banner-{'dark' if d else 'light'}.svg","w").write(banner(d))
 
 # stack panel
-groups=[("Languages",["Go","Python","TypeScript","Rust","C#","Solidity","SQL"]),
-("Backend &amp; data",["Kafka","Cassandra","PostgreSQL","FastAPI","Node.js"]),
-("Infrastructure",["Kubernetes","Istio","Linkerd","Docker","Prometheus"]),
+groups=[("Languages",["Go","Python","TypeScript","JavaScript","Rust","C#","Java","Solidity","SQL"]),
+("Backend &amp; data",["Node.js","FastAPI","ASP.NET Core","Kafka","Cassandra","MongoDB","PostgreSQL"]),
+("Infrastructure",["Kubernetes","Istio","Linkerd","Docker","Prometheus","Cloudflare"]),
 ("Professional (Solera)",["C#",".NET","ASP.NET Core","xUnit","Open XML"]),
-("AI &amp; verification",["LLM pipelines","xUnit / Jest","Property testing","Foundry"])]
+("AI &amp; verification",["LLM pipelines","Claude","Copilot","Cursor","MCP","Property testing"])]
 def stack(dark):
     bg,line,lab,txt,chipbg=("#12122c","#2f2b57","#a9a3d6","#f4efe6","#1e1b40") if dark else ("#f4f8fd","#cbd8ea","#4c5a8a","#1a2350","#e4edf9")
     y=44; out=""; 
