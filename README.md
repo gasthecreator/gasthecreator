@@ -41,9 +41,9 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://praecept.ai">Praecept</a></h3>
-      <sub><code>Node.js</code> · <code>React</code> · <code>Supabase Auth</code></sub>
-      <p>An AI-powered legal intelligence platform built around a graph of legal doctrine. I built the production auth system and the LLM extraction pipeline behind its review workflow.</p>
-      <b>Live at praecept.ai</b>, with about 41k lines of JS, TS and SQL committed. Source is private.
+      <sub><code>Node.js</code> · <code>Supabase Auth</code> · <code>LLM pipeline</code></sub>
+      <p>A verified map of common-law doctrine that lawyers can read and reason from. I built the production auth system and the LLM extraction pipeline behind its review workflow.</p>
+      <b>Live at praecept.ai</b>, by invitation. Source is private.
     </td>
     <td width="50%" valign="top">
       <h3>Feedback Automation Pipeline</h3>
