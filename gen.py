@@ -53,6 +53,7 @@ for d in (True,False):
 groups=[("Languages",["Go","Python","TypeScript","Rust","Solidity","SQL"]),
 ("Backend &amp; data",["Kafka","Cassandra","PostgreSQL","FastAPI","Node.js"]),
 ("Infrastructure",["Kubernetes","Istio","Linkerd","Docker","Prometheus"]),
+("Professional (Solera)",["C#",".NET","ASP.NET Core","xUnit","Open XML"]),
 ("AI &amp; verification",["LLM pipelines","xUnit / Jest","Property testing","Foundry"])]
 def stack(dark):
     bg,line,lab,txt,chipbg=("#12122c","#2f2b57","#a9a3d6","#f4efe6","#1e1b40") if dark else ("#f4f8fd","#cbd8ea","#4c5a8a","#1a2350","#e4edf9")

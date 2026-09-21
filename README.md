@@ -60,7 +60,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Languages: Go, Python, TypeScript, Rust, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry." width="760">
+  <img src="assets/stack-light.svg" alt="Languages: Go, Python, TypeScript, Rust, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry. Professional (Solera): C#, .NET, ASP.NET Core, xUnit, Open XML." width="760">
 </picture>
 
 <br>
@@ -72,7 +72,7 @@
   <img src="assets/langs-light.svg" alt="Languages by lines I wrote across all my repositories: Go, JavaScript, TypeScript, Rust, SQL, Python and Solidity." width="720">
 </picture>
 
-<sub>Counted from commits I authored across all my repositories, including private and team work.</sub>
+<sub>Counted from commits I authored across all my repositories, including private and team work. My Solera work (C# / .NET) lives in private employer repos and isn't counted here.</sub>
 
 <br>
 
