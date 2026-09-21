@@ -60,7 +60,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Languages: Go, Python, TypeScript, Rust, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry. Professional (Solera): C#, .NET, ASP.NET Core, xUnit, Open XML." width="760">
+  <img src="assets/stack-light.svg" alt="Languages: Go, Python, TypeScript, Rust, C#, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry. Professional (Solera): C#, .NET, ASP.NET Core, xUnit, Open XML." width="760">
 </picture>
 
 <br>

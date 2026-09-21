@@ -50,7 +50,7 @@ for d in (True,False):
     open(f"assets/banner-{'dark' if d else 'light'}.svg","w").write(banner(d))
 
 # stack panel
-groups=[("Languages",["Go","Python","TypeScript","Rust","Solidity","SQL"]),
+groups=[("Languages",["Go","Python","TypeScript","Rust","C#","Solidity","SQL"]),
 ("Backend &amp; data",["Kafka","Cassandra","PostgreSQL","FastAPI","Node.js"]),
 ("Infrastructure",["Kubernetes","Istio","Linkerd","Docker","Prometheus"]),
 ("Professional (Solera)",["C#",".NET","ASP.NET Core","xUnit","Open XML"]),
