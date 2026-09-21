@@ -65,6 +65,15 @@
 
 <br>
 
+## Contribution graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gasthecreator/gasthecreator/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/gasthecreator/gasthecreator/output/snake.svg" alt="A snake eating through my GitHub contribution graph" width="100%">
+</picture>
+
+<br>
+
 ## How I work
 
 I like problems where the failure modes are the interesting part: partitions, retries, cascades, exploits. I test against real infrastructure instead of mocks, write down what a system does *not* claim, and prefer proof over confidence.
