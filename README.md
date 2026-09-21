@@ -65,12 +65,14 @@
 
 <br>
 
-## Contribution graph
+## Languages
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gasthecreator/gasthecreator/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/gasthecreator/gasthecreator/output/snake.svg" alt="A snake eating through my GitHub contribution graph" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
+  <img src="assets/langs-light.svg" alt="Languages by code written across my public repositories, led by Go." width="720">
 </picture>
+
+<sub>Measured from my public repositories and refreshed weekly.</sub>
 
 <br>
 
