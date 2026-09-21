@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Gideon Sanni, Software Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=3">
+  <img src="assets/banner-light.svg?v=3" alt="Gideon Sanni, Software Engineer" width="100%">
 </picture>
 
 **I build fault-tolerant systems, Kubernetes automation, and AI pipelines that verify their own work.**
@@ -59,8 +59,8 @@
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Languages: Go, Python, TypeScript, Rust, C#, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry. Professional (Solera): C#, .NET, ASP.NET Core, xUnit, Open XML." width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=3">
+  <img src="assets/stack-light.svg?v=3" alt="Languages: Go, Python, TypeScript, Rust, C#, Solidity, SQL. Backend and data: Kafka, Cassandra, PostgreSQL, FastAPI, Node.js. Infrastructure: Kubernetes, Istio, Linkerd, Docker, Prometheus. AI and verification: LLM pipelines, xUnit and Jest, property testing, Foundry. Professional (Solera): C#, .NET, ASP.NET Core, xUnit, Open XML." width="760">
 </picture>
 
 <br>
@@ -68,8 +68,8 @@
 ## Languages
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
-  <img src="assets/langs-light.svg" alt="Languages by lines I wrote across all my repositories: Go, JavaScript, TypeScript, Rust, SQL, Python and Solidity." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg?v=3">
+  <img src="assets/langs-light.svg?v=3" alt="Languages by lines I wrote across all my repositories: Go, JavaScript, TypeScript, Rust, SQL, Python and Solidity." width="720">
 </picture>
 
 <sub>Counted from commits I authored across all my repositories, including private and team work. My Solera work (C# / .NET) lives in private employer repos and isn't counted here.</sub>
