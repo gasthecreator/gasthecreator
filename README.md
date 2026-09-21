@@ -69,10 +69,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg">
-  <img src="assets/langs-light.svg" alt="Languages by code written across my public repositories, led by Go." width="720">
+  <img src="assets/langs-light.svg" alt="Languages by lines I wrote across all my repositories: Go, JavaScript, TypeScript, Rust, SQL, Python and Solidity." width="720">
 </picture>
 
-<sub>Measured from my public repositories and refreshed weekly.</sub>
+<sub>Counted from commits I authored across all my repositories, including private and team work.</sub>
 
 <br>
 
