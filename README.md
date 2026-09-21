@@ -28,7 +28,7 @@
     <td width="50%" valign="top">
       <h3>Feedback Automation Pipeline</h3>
       <sub><code>.NET 10</code> · <code>Kubernetes</code> · <code>GitHub Actions</code></sub>
-      <p>A Solera pilot that turns approved user feedback into AI-generated fix pull requests, with lease-based reliability and a failing-test proof gate.</p>
+      <p>A Solera pilot that gives user feedback a much faster path to a reviewable fix: after a single approval, it produces an AI-generated pull request, with lease-based reliability and a failing-test proof gate.</p>
       <b>127 AI-authored fix PRs</b> in a six-week pilot. Internal project.
     </td>
     <td width="50%" valign="top">
