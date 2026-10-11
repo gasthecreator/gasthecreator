@@ -18,6 +18,7 @@
 - **Solera Holdings, summer 2026.** Shipped two AI-driven pipelines that save 500+ engineering hours a month, built so AI-generated fixes must clear a failing-test proof and a human approval gate. The feedback pilot produced 127 AI-authored fix PRs.
 - **Grambling State University.** B.S. in Computer Science & Cybersecurity, graduating May 2028.
 - **Building.** Tripwire, automated exploit containment for DeFi protocols.
+- **Ask my portfolio.** [My website](https://gasthecreator.github.io/portfolio/) has an AI assistant (the "Ask about Gideon" button) that answers questions about my projects, skills and experience. It runs Gemma 4 on Cloudflare Workers AI behind a rate-limited Worker, answers only from the site's own content, and says so when it doesn't know. Its code and test set are in [`worker/`](https://github.com/gasthecreator/portfolio/tree/main/worker).
 
 <br>
 
