@@ -62,7 +62,7 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://gasthecreator.github.io/portfolio/#archive">More in the archive</a></h3>
-      <sub><code>SafeLink</code> · <code>Release Checklist Automation</code> · <code>Disaster Sentinel</code> · <code>The Refraction</code></sub>
+      <sub><code>SafeLink</code> · <code>Release Checklist Automation</code> · <code>The Refraction</code></sub>
       <p>SafeLink, a Bluetooth-mesh disaster alert system, placed Top 5 of 64 teams at the BE Smart Hackathon. The rest of the archive is on my portfolio.</p>
       <a href="https://gasthecreator.github.io/portfolio/">Open the portfolio</a>
     </td>
