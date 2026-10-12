@@ -58,7 +58,7 @@
       <h3><a href="https://github.com/gasthecreator/tripwire">Tripwire</a></h3>
       <sub><code>Rust</code> · <code>Solidity</code> · <code>Foundry</code></sub>
       <p>A Rust detection engine that pauses a vault through an on-chain Guardian contract, taking response from human minutes to seconds.</p>
-      <b>55 tests</b> across detection and contracts, including fuzzing and a live reentrancy simulation.
+      <b>257 passing tests</b> (220 Rust, 37 Foundry), including fuzzing, replays of four historical exploits and a live reentrancy simulation.
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://gasthecreator.github.io/portfolio/#archive">More in the archive</a></h3>
