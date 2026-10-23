@@ -55,7 +55,7 @@ groups=[("Languages",["Python","TypeScript","Go","Rust","C/C++","C#","Java","Jav
 ("Infrastructure",["Kubernetes","Docker","Prometheus","OpenTelemetry","Istio","Linkerd"]),
 ("AI / ML",["PyTorch","scikit-learn","XGBoost","JAX","NumPyro/NUTS","ONNX Runtime"]),
 ("Agentic tools",["LLM agents","MCP","Claude","Cursor","GitHub Copilot","Gemini","Antigravity","OpenAI Codex"]),
-("Mobile &amp; verification",["React Native","Foundry","Alloy"])]
+("Mobile &amp; Web3",["React Native","Foundry","Alloy"])]
 def stack(dark):
     bg,line,lab,txt,chipbg=("#12122c","#2f2b57","#a9a3d6","#f4efe6","#1e1b40") if dark else ("#f4f8fd","#cbd8ea","#4c5a8a","#1a2350","#e4edf9")
     y=36; out=""

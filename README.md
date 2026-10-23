@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=7">
-  <img src="assets/banner-light.svg?v=7" alt="Gideon Sanni, Software Engineer" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=8">
+  <img src="assets/banner-light.svg?v=8" alt="Gideon Sanni, Software Engineer" width="100%">
 </picture>
 
 **I build fault-tolerant systems, Kubernetes automation, and AI pipelines that verify their own work.**
@@ -82,8 +82,8 @@
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=7">
-  <img src="assets/stack-light.svg?v=7" alt="Languages: Python, TypeScript, Go, Rust, C and C++, C#, Java, JavaScript, SQL, Solidity, Swift, Kotlin. Backend and data: FastAPI, Node.js, Express, ASP.NET Core, .NET, PostgreSQL, SQLite, Supabase, Redis, Kafka, Cassandra. Infrastructure: Kubernetes, Docker, Prometheus, OpenTelemetry, Istio, Linkerd. AI and ML: PyTorch, scikit-learn, XGBoost, JAX, NumPyro/NUTS, ONNX Runtime. Agentic tools: LLM agents, MCP, Claude, Cursor, GitHub Copilot, Gemini, Antigravity, OpenAI Codex. Mobile and verification: React Native, Foundry, Alloy." width="760">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=8">
+  <img src="assets/stack-light.svg?v=8" alt="Languages: Python, TypeScript, Go, Rust, C and C++, C#, Java, JavaScript, SQL, Solidity, Swift, Kotlin. Backend and data: FastAPI, Node.js, Express, ASP.NET Core, .NET, PostgreSQL, SQLite, Supabase, Redis, Kafka, Cassandra. Infrastructure: Kubernetes, Docker, Prometheus, OpenTelemetry, Istio, Linkerd. AI and ML: PyTorch, scikit-learn, XGBoost, JAX, NumPyro/NUTS, ONNX Runtime. Agentic tools: LLM agents, MCP, Claude, Cursor, GitHub Copilot, Gemini, Antigravity, OpenAI Codex. Mobile and Web3: React Native, Foundry, Alloy." width="760">
 </picture>
 
 <br>
@@ -91,8 +91,8 @@
 ## Languages
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg?v=7">
-  <img src="assets/langs-light.svg?v=7" alt="Languages by lines committed under my name across all my repositories: Python, Go, JavaScript, C and C++, TypeScript, Rust and Solidity." width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg?v=8">
+  <img src="assets/langs-light.svg?v=8" alt="Languages by lines committed under my name across all my repositories: Python, Go, JavaScript, C and C++, TypeScript, Rust and Solidity." width="720">
 </picture>
 
 <sub>Counted from commits under my name across all my repositories, including private and team work and code written with AI coding agents. My Solera work (C# / .NET) lives in private employer repos and isn't counted here.</sub>
