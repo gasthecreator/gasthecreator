@@ -68,24 +68,10 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/gasthecreator/pharos">Pharos</a></h3>
-      <sub><code>Go</code> · <code>Kafka</code> · <code>Cassandra</code></sub>
-      <p>Distributed adverse-event ingestion for clinical trials that survives site outages, duplicate retries and out-of-order events.</p>
-      <b>101 ms p95</b> under multi-datacenter load. Five real correctness bugs caught before shipping.
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/gasthecreator/tripwire">Tripwire</a></h3>
-      <sub><code>Rust</code> · <code>Solidity</code> · <code>Foundry</code></sub>
-      <p>A Rust detection engine that pauses a vault through an on-chain Guardian contract, taking response from human minutes to seconds.</p>
-      <b>257 passing tests</b> (220 Rust, 37 Foundry), including fuzzing, replays of four historical exploits and a live reentrancy simulation.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3><a href="https://gasthecreator.github.io/portfolio/#archive">More in the archive</a></h3>
-      <sub><code>Release Checklist Automation</code> · <code>The Refraction</code></sub>
-      <p>The rest of the archive is on my portfolio.</p>
+      <sub><code>Pharos</code> · <code>Tripwire</code> · <code>Release Checklist Automation</code> · <code>The Refraction</code></sub>
+      <p>Pharos (distributed adverse-event ingestion in Go, Kafka and Cassandra, 101 ms p95 under multi-datacenter load) and Tripwire (automated DeFi exploit containment in Rust and Solidity) are in the archive on my portfolio, along with the rest.</p>
       <a href="https://gasthecreator.github.io/portfolio/">Open the portfolio</a>
     </td>
   </tr>
