@@ -6,10 +6,11 @@ Only the aggregate percentages are published. Repo names and code never leave th
 import collections, os, re, subprocess, tempfile
 
 REPOS = ["gasthecreator/Cascade-Operator", "gasthecreator/disaster-sentinel", "gasthecreator/Leetcode", "gasthecreator/pharos",
-         "gasthecreator/portfolio", "gasthecreator/tripwire", "Praecept-ai/praecept", "Praecept-ai/api", "Praecept-ai/prototype"]
+         "gasthecreator/portfolio", "gasthecreator/tripwire", "gasthecreator/tierfs", "gasthecreator/vigil", "gasthecreator/safelink-sentinel", "Praecept-ai/praecept", "Praecept-ai/api", "Praecept-ai/prototype"]
 AUTHORS = ["gideonsanni2023@gmail.com", "gsanni@Gideons"]
 LANG = {".py": "Python", ".js": "JavaScript", ".jsx": "JavaScript", ".mjs": "JavaScript", ".cjs": "JavaScript", ".ts": "TypeScript",
-        ".tsx": "TypeScript", ".go": "Go", ".rs": "Rust", ".sol": "Solidity", ".sql": "SQL"}
+        ".tsx": "TypeScript", ".go": "Go", ".rs": "Rust", ".sol": "Solidity", ".sql": "SQL",
+        ".c": "C/C++", ".h": "C/C++", ".cc": "C/C++", ".cpp": "C/C++", ".hpp": "C/C++", ".swift": "Swift", ".kt": "Kotlin"}
 SKIP = re.compile(r"(node_modules|vendor|dist/|build/|\.min\.|lock|generated|zz_|\.pb\.|snapshots?/|fixtures?/|/data/)", re.I)
 PALETTE = ["#c4663f", "#8e7fd0", "#e0a15a", "#5f8fd0", "#b56fa6", "#6fb59a", "#9aa5c8"]
 
@@ -42,9 +43,9 @@ def svg(dark):
                  f'<text x="640" y="{y+13}" font-size="13" fill="{sub}" font-family="ui-monospace,Menlo,monospace">{pct:.1f}%</text>')
         y += 34
     h = y + 6
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 {h}" width="720" height="{h}" role="img" aria-label="Languages by lines I wrote across all my repositories">'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 {h}" width="720" height="{h}" role="img" aria-label="Languages by lines committed under my name across all my repositories">'
             f'<rect width="720" height="{h}" rx="16" fill="{bg}" stroke="{line}"/>'
-            f'<text x="28" y="26" font-size="12" fill="{sub}" letter-spacing="2" font-family="ui-monospace,Menlo,monospace">LANGUAGES BY LINES I WROTE</text>{rows}</svg>')
+            f'<text x="28" y="26" font-size="12" fill="{sub}" letter-spacing="2" font-family="ui-monospace,Menlo,monospace">LANGUAGES BY LINES COMMITTED</text>{rows}</svg>')
 
 for dark in (True, False):
     open(f"assets/langs-{'dark' if dark else 'light'}.svg", "w").write(svg(dark))

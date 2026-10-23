@@ -50,23 +50,25 @@ for d in (True,False):
     open(f"assets/banner-{'dark' if d else 'light'}.svg","w").write(banner(d))
 
 # stack panel
-groups=[("Languages",["Go","Python","TypeScript","JavaScript","Rust","C#","Java","Solidity","SQL"]),
-("Backend &amp; data",["Node.js","FastAPI","ASP.NET Core","Kafka","Cassandra","MongoDB","PostgreSQL"]),
-("Infrastructure",["Kubernetes","Istio","Linkerd","Docker","Prometheus","Cloudflare"]),
-("Professional (Solera)",["C#",".NET","ASP.NET Core","xUnit","Open XML"]),
-("AI &amp; verification",["LLM pipelines","Claude","Copilot","Cursor","MCP","Property testing"])]
+groups=[("Languages",["Python","TypeScript","Go","Rust","C/C++","C#","Java","JavaScript","SQL","Solidity","Swift","Kotlin"]),
+("Backend &amp; data",["FastAPI","Node.js","Express","ASP.NET Core",".NET","PostgreSQL","SQLite","Supabase","Redis","Kafka","Cassandra"]),
+("Infrastructure",["Kubernetes","Docker","Prometheus","OpenTelemetry","Istio","Linkerd"]),
+("AI / ML",["PyTorch","scikit-learn","XGBoost","JAX","NumPyro/NUTS","ONNX Runtime"]),
+("Agentic tools",["LLM agents","MCP","Claude","Cursor","GitHub Copilot","Gemini","Antigravity","OpenAI Codex"]),
+("Mobile &amp; verification",["React Native","Foundry","Alloy"])]
 def stack(dark):
     bg,line,lab,txt,chipbg=("#12122c","#2f2b57","#a9a3d6","#f4efe6","#1e1b40") if dark else ("#f4f8fd","#cbd8ea","#4c5a8a","#1a2350","#e4edf9")
-    y=44; out=""; 
-    for g,items in groups:
-        out+=f'<text x="28" y="{y}" font-size="12" fill="{lab}" letter-spacing="2" font-family="ui-monospace,Menlo,monospace">{g.upper().replace("&AMP;","&amp;")}</text>'
-        x=28; yy=y+14
+    y=36; out=""
+    for gname,items in groups:
+        out+=f'<text x="28" y="{y}" font-size="12" fill="{lab}" letter-spacing="2" font-family="ui-monospace,Menlo,monospace">{gname.upper().replace("&AMP;","&amp;")}</text>'
+        x=28; yy=y+12
         for it in items:
             w=len(it)*8.2+24
+            if x+w>732: x=28; yy+=36
             out+=f'<rect x="{x:.0f}" y="{yy}" width="{w:.0f}" height="28" rx="14" fill="{chipbg}" stroke="{line}"/><text x="{x+w/2:.0f}" y="{yy+19}" font-size="13" text-anchor="middle" fill="{txt}" font-family="-apple-system,Segoe UI,Helvetica,sans-serif">{it}</text>'
             x+=w+10
-        y+=74
-    h=y-8
+        y=yy+28+34
+    h=y-12
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 {h}" width="760" height="{h}" role="img" aria-label="Tech stack"><rect width="760" height="{h}" rx="16" fill="{bg}" stroke="{line}"/>{out}</svg>'
 for d in (True,False):
     open(f"assets/stack-{'dark' if d else 'light'}.svg","w").write(stack(d))
