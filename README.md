@@ -15,6 +15,7 @@
 
 ## Now
 
+- **Hacktoberfest Hack Day Grambling, October 2026.** Won Best Use of Open Source Models with [Quorum](https://github.com/gasthecreator/quorum), which I built solo. Open-weight models run locally through Ollama, review code blind and debate it, and a judge rules, with each model's vote weighted by how well it measured on that kind of bug.
 - **Solera Holdings, summer 2026.** Engineered two automation workflows in C# and .NET, including an approval-triggered AI feedback pilot that generated 127 fix pull requests and 300+ issues for one target repository. AI fixes were blocked unless a failing test proved them.
 - **Grambling State University.** B.S. in Computer Science, graduating May 2028.
 - **Building.** SafeLink (offline-first emergency app), TierFS (tiered storage for macOS), Vigil (breast-cancer follow-up research) and Tripwire (DeFi exploit containment).
